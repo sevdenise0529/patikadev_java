@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main {
+public class GirilenSayi {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int k;
@@ -10,7 +10,7 @@ public class Main {
             if (i%3==0 && i%4==0){
                 System.out.println(i);
                 toplam+=i;
-                sayi++
+                sayi++;
             }
         }
         sonuc = toplam/(sayi-1);
