@@ -9,7 +9,7 @@ public class kdvHesaplama
       System.out.print("Ucret Tutarını Giriniz: ");
       int tutar = input.nextInt();
       
-      double tutarKdv = (tutar>1000) ? tutar*kdvOran : tutar*kdvOran2
+      double tutarKdv = (tutar>1000) ? tutar*kdvOran : tutar*kdvOran2;
       double tutarKdvli = tutar+tutarKdv;
       
       System.out.println("Tutar: "+tutar);
