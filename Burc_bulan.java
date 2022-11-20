@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class burc_bulan {
+public class Burc_bulan {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Doğduğunuz ay: ");
