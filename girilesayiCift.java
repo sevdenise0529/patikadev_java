@@ -1,8 +1,8 @@
 import java.util.Scanner;
-public class Main {
+public class girilesayiCift {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int sayi, toplam=0,;
+        int sayi, toplam=0;
         do{
             System.out.print("Sayiyi giriniz:");
             sayi = input.nextInt();
